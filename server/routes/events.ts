@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
     // Get events for this tenant using raw SQL
     const result = await db.execute(sql`
       SELECT id, title, description, "startDate" as start_date, "endDate" as end_date, 
-             location, "imageUrl" as image_url, "sourceUrl" as source_url, category, "createdAt" as scraped_at
+             location, "imageUrl" as image_url, "ticketLink" as ticket_link, category, "createdAt" as scraped_at
       FROM events
       WHERE "tenantId" = ${tenantSlug}
       ORDER BY "startDate" ASC
