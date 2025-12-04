@@ -41,9 +41,9 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 }
 
 async function startServer() {
-  // Restore complete database from backup
-  const { restoreDatabase } = await import('../restore-database.js');
-  await restoreDatabase();
+  // Import data after migrations
+  const { importData } = await import('../scripts/import-data.js');
+  await importData();
   
   const app = express();
   const server = createServer(app);
