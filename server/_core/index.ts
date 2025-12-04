@@ -41,10 +41,6 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 }
 
 async function startServer() {
-  // Import data after migrations
-  const { importData } = await import('../scripts/import-data.js');
-  await importData();
-  
   const app = express();
   const server = createServer(app);
   
