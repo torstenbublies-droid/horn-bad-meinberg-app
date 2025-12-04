@@ -1,0 +1,7 @@
+{
+  "action": "deploy",
+  "subdomain": "horn-bad-meinberg",
+  "repository": "torstenbublies-droid/horn-bad-meinberg-app",
+  "branch": "main",
+  "timestamp": "2025-12-04T13:25:00Z"
+}
