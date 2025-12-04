@@ -23,11 +23,11 @@ router.get('/', async (req, res) => {
     
     // Get news articles for this tenant using raw SQL
     const result = await db.execute(sql`
-      SELECT id, title, teaser as description, published_at as published_date, 
-             source_url, category, created_at as scraped_at, image_url
+      SELECT id, title, teaser as description, "publishedAt" as published_date, 
+             "sourceUrl" as source_url, category, "createdAt" as scraped_at, "imageUrl" as image_url
       FROM news
-      WHERE tenant_id = ${tenantSlug}
-      ORDER BY published_at DESC
+      WHERE "tenantId" = ${tenantSlug}
+      ORDER BY "publishedAt" DESC
       LIMIT 20
     `);
     
