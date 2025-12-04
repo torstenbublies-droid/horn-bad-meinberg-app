@@ -1,0 +1,161 @@
+nohup: ignoring input
+
+> buergerapp-schieder@1.0.0 start /home/ubuntu/multi_tenant_app/schieder-multi-tenant
+> node dist/index.js
+
+[OAuth] Initialized with baseURL: 
+[OAuth] WARNING: OAUTH_SERVER_URL is not configured. OAuth features will be disabled.
+[Server] Running in PRODUCTION mode with static files
+[Static] import.meta.dirname: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist
+[Static] Resolved distPath: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public
+[Static] Serving from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public
+[Static] Directory exists: true
+Server running on http://0.0.0.0:3000/
+NODE_ENV: production
+PORT: 3000
+Server is ready to accept connections
+[Cron] Setting up scheduled scraping jobs...
+[Cron] ✓ News scraping scheduled: Every 2 days at 1:00 AM
+[Cron] ✓ Events scraping scheduled: Every 2 days at 1:10 AM
+[Cron] ✓ Employees scraping scheduled: Every 2 days at 1:20 AM
+[Cron] ✓ Clubs scraping scheduled: Every Sunday at 1:00 AM
+[2025-12-02T14:29:20.764Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:29:24.003Z] GET /api/education?tenant=hornbadmeinberg
+[2025-12-02T14:29:45.236Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:29:47.410Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:29:51.572Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:30:04.782Z] GET /api/education?tenant=hornbadmeinberg
+[2025-12-02T14:30:21.471Z] HEAD /?tenant=hornbadmeinberg
+[2025-12-02T14:30:21.774Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:30:22.938Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:30:25.102Z] GET /api/trpc/directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:30:31.576Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:31.582Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:32.327Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:33.337Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:33.372Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:33.406Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:33.468Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:30:33.916Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:00.753Z] GET /hornbadmeinberg/education
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:00.802Z] GET /assets/index-D34mgsgh.css
+[2025-12-02T14:31:00.804Z] GET /assets/index-CvHKWjVN.js
+[2025-12-02T14:31:00.814Z] GET /OneSignalSDKWorker.js
+[2025-12-02T14:31:01.224Z] GET /api/trpc/tenant.current?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=schieder
+[Tenant] Extracted from query: schieder
+[Tenant] Loading tenant from DB with slug: schieder
+[Tenant] Loaded tenant: Schieder-Schwalenberg
+[Auth] Missing session cookie
+[2025-12-02T14:31:01.399Z] GET /api/trpc/weather.current,weather.forecast,auth.me,mayor.info,pushNotifications.active,directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%224%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%225%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=schieder
+[Tenant] Extracted from query: schieder
+[Tenant] Loading tenant from DB with slug: schieder
+[Tenant] Loaded tenant: Schieder-Schwalenberg
+[Auth] Missing session cookie
+[DirectusDbService] getPushNotifications called with tenantId: 1
+[DirectusDbService] Found 1 notifications for tenant 1
+[2025-12-02T14:31:10.916Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:10.932Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:13.810Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:14.440Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:14.489Z] GET /assets/index-D34mgsgh.css
+[2025-12-02T14:31:14.490Z] GET /assets/index-CvHKWjVN.js
+[2025-12-02T14:31:14.491Z] GET /OneSignalSDKWorker.js
+[2025-12-02T14:31:14.690Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:14.707Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:14.745Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:14.804Z] GET /api/trpc/tenant.current?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:31:14.909Z] GET /api/trpc/weather.current,weather.forecast,auth.me,mayor.info,pushNotifications.active,directus.getPushNotifications?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%224%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%225%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:31:15.181Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:15.719Z] GET /education?tenant=hornbadmeinberg
+[Static] Sending index.html from: /home/ubuntu/multi_tenant_app/schieder-multi-tenant/dist/public/index.html
+[2025-12-02T14:31:28.334Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:28.415Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:29.466Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:30.402Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:30.409Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:30.425Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:30.529Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:30.678Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:32.825Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:32.906Z] GET /assets/index-D34mgsgh.css
+[2025-12-02T14:31:32.907Z] GET /assets/index-CvHKWjVN.js
+[2025-12-02T14:31:32.919Z] GET /OneSignalSDKWorker.js
+[2025-12-02T14:31:33.466Z] GET /api/trpc/tenant.current?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:31:33.666Z] GET /api/education?tenant=hornbadmeinberg
+[2025-12-02T14:31:49.457Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:49.478Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:51.878Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:52.721Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:52.731Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:52.737Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:52.780Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:31:52.836Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:32:03.682Z] GET /?tenant=hornbadmeinberg
+[2025-12-02T14:32:03.738Z] GET /assets/index-D34mgsgh.css
+[2025-12-02T14:32:03.739Z] GET /assets/index-CvHKWjVN.js
+[2025-12-02T14:32:03.745Z] GET /OneSignalSDKWorker.js
+[2025-12-02T14:32:04.166Z] GET /api/trpc/tenant.current?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D&tenant=hornbadmeinberg
+[Tenant] Extracted from query: hornbadmeinberg
+[Tenant] Loading tenant from DB with slug: hornbadmeinberg
+[Tenant] Loaded tenant: Horn-Bad Meinberg
+[Auth] Missing session cookie
+[2025-12-02T14:32:04.263Z] GET /api/education?tenant=hornbadmeinberg
+[2025-12-02T14:32:19.671Z] GET /api/education?tenant=hornbadmeinberg
+ ELIFECYCLE  Command failed.

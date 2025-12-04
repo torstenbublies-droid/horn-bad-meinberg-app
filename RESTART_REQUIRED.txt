@@ -1,0 +1,1 @@
+Server restart required. Please manually restart the server with: cd /home/ubuntu/multi_tenant_app/schieder-multi-tenant && pnpm run start
